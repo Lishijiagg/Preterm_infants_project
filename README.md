@@ -11,7 +11,7 @@ three interventions in the 40 preterm communities.
     GEMs-BacArena_analysis.R    all analyses and figures, in the order of the manuscript
     simulation/                 cluster job scripts and the R scripts they call
     extraction/                 reduction of BacArena output to the per-infant tables
-    data/                       input tables, see data/README.md
+    data/                       input tables and extracted simulation output, see data/README.md
     extras/                     analyses explored but not reported
     sessionInfo.txt             package versions
 
@@ -25,7 +25,8 @@ object. A single Eval object exceeds 100 GB, so these are not distributed.
 
 **Extraction.** extraction/extract_eval.R reduces each Eval object to the per-infant tables the
 analysis uses: end-point abundances, metabolite concentrations, and the exchange flux of every
-organism at every time step.
+organism at every time step. These tables are in data/extracted/ and are the direct input to the
+analysis.
 
 **Analysis.** GEMs-BacArena_analysis.R runs top to bottom from the repository root and produces every
 number, table and figure in the manuscript. Set the four model directories in the path block of
@@ -56,11 +57,13 @@ constrained to each medium by Part 6.
 
 ## Metabolic models
 
-The 191 genome-scale metabolic models are not redistributed here. They come from AGORA2
-(Heinken et al., Nat Biotechnol 2023, https://www.vmh.life) and from the HMO-extended
-reconstructions of Shaaban et al. (Commun Med 2024), the latter covering 119 of the 191 strains.
-data/mapping/ASV_GEM_map_with_genus.txt gives the strain and model file assigned to every ASV and is
-sufficient to reassemble exactly the set used here. The same information is in Supplementary Table S3.
+The 191 genome-scale metabolic models and the seven probiotic models are too large for this
+repository and are archived at Zenodo: https://doi.org/10.5281/zenodo.23090424
+
+They originate from AGORA2 (Heinken et al., Nat Biotechnol 2023, https://www.vmh.life) and from the
+HMO-extended reconstructions of Shaaban et al. (Commun Med 2024), the latter covering 119 of the 191
+strains. data/mapping/ASV_GEM_map_with_genus.txt gives the strain and model file assigned to every
+ASV; the same information is in Supplementary Table S3.
 
 ## Requirements
 
@@ -71,5 +74,3 @@ Exact versions are in sessionInfo.txt.
 
 Code is released under the MIT Licence. The metabolic models are distributed under the terms of
 their original sources and are not covered by this licence.
-
-An archive of the exact model files used in this study is deposited at Zenodo under DOI https://doi.org/10.5281/zenodo.23090424.

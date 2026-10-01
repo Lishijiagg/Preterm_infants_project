@@ -71,3 +71,5 @@ Exact versions are in sessionInfo.txt.
 
 Code is released under the MIT Licence. The metabolic models are distributed under the terms of
 their original sources and are not covered by this licence.
+
+An archive of the exact model files used in this study is deposited at Zenodo under DOI https://doi.org/10.5281/zenodo.23090424.

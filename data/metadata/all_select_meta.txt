@@ -1,0 +1,41 @@
+"Group"	"matched"	"Pathogen"	"DoL"	"Age"
+"1-6_S88_L001"	"Sepsis"	1	"Staphylococcus aureus"	15	9
+"10-3_S71_L001"	"Sepsis"	9	"Staphylococcus aureus"	17	14
+"11-5_S18_L001"	"Sepsis"	10	"Enterococcus faecalis"	7	2
+"12-5_S57_L001"	"Sepsis"	11	"Enterococcus faecalis"	26	21
+"14-1_S103_L001"	"Sepsis"	12	"Escherichia coli"	13	12
+"15-7_S38_L001"	"Sepsis"	13	"Staphylococcus aureus"	15	8
+"16-2_S139_L001"	"Sepsis"	14	"Staphylococcus aureus"	15	13
+"17-2_S56_L001"	"Sepsis"	15	"Klebsiella oxytoca"	11	9
+"19-1_S1_L001"	"Sepsis"	16	"Escherichia coli"	11	10
+"2-2_S47_L001"	"Sepsis"	2	"Staphylococcus aureus + Citrobacter freundii"	19	17
+"21-1_S23_L001"	"Sepsis"	17	"Escherichia coli"	21	20
+"22-8_S36_L001"	"Sepsis"	18	"Staphylococcus aureus"	19	11
+"23-2_S7_L001"	"Sepsis"	19	"Staphylococcus aureus"	12	10
+"24-1_S21_L001"	"Sepsis"	20	"Staphylococcus aureus"	14	13
+"25-1_S12_L001"	"Control"	1	"Control"	15	14
+"26-1_S35_L001"	"Control"	2	"Control"	19	18
+"27-2_S142_L001"	"Control"	3	"Control"	28	26
+"28-3_S14_L001"	"Control"	4	"Control"	18	15
+"29-4_S29_L001"	"Control"	5	"Control"	23	19
+"3-1_S5_L001"	"Sepsis"	3	"Klebsiella pneumoniae"	28	27
+"30-1_S79_L001"	"Control"	6	"Control"	19	18
+"31-1_S37_L001"	"Control"	7	"Control"	18	17
+"33-1_S11_L001"	"Control"	8	"Control"	10	9
+"34-1_S89_L001"	"Control"	9	"Control"	17	16
+"35-1_S80_L001"	"Control"	10	"Control"	7	6
+"36-1_S16_L001"	"Control"	11	"Control"	26	25
+"37-1_S67_L001"	"Control"	12	"Control"	13	12
+"38-1_S72_L001"	"Control"	13	"Control"	15	14
+"39-1_S7_L001"	"Control"	14	"Control"	15	14
+"4-1_S70_L001"	"Sepsis"	4	"Klebsiella pneumoniae"	18	17
+"40-1_S59_L001"	"Control"	15	"Control"	11	10
+"42-2_S135_L001"	"Control"	16	"Control"	11	9
+"43-1_S25_L001"	"Control"	17	"Control"	21	20
+"44-1_S50_L001"	"Control"	18	"Control"	19	18
+"45-1_S36_L001"	"Control"	19	"Control"	12	11
+"46-1_S37_L001"	"Control"	20	"Control"	14	13
+"5-4_S54_L001"	"Sepsis"	5	"Enterobacter aerogenes"	23	19
+"6-1_S34_L001"	"Sepsis"	6	"Staphylococcus aureus"	19	18
+"7-1_S44_L001"	"Sepsis"	7	"Escherichia coli"	18	17
+"9-1_S41_L001"	"Sepsis"	8	"Enterobacter cloacae"	10	9

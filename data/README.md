@@ -49,3 +49,8 @@ tables produced by `extraction/extract_eval.R` instead.
 **The 191 `.mat` metabolic models.** These belong to AGORA2 (https://www.vmh.life) and to the
 HMO-extended reconstructions of Shaaban et al., and are not redistributed here.
 `mapping/ASV_GEM_map_with_genus.txt` is sufficient to reassemble exactly the set used in this study.
+
+## extracted/
+
+Per-infant tables reduced from the BacArena simulation output, ten conditions. These are the direct
+input to the analysis script. See extracted/README.txt.

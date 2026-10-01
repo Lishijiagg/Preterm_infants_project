@@ -182,7 +182,7 @@ pro_names = names(probiotics)   # model identifiers of the introduced strains
 # time course, the growth curve of every organism, and the SCFA exchange flux of every organism); the loader below
 # reads those tables and binds them across subjects. Everything downstream works from these tables.
 load_extracted = function(cond, expected = NULL) {
-  dir_path = paste0("extracted_", cond)
+  dir_path = file.path(data_dir, "extracted", paste0("extracted_", cond))
   f = list.files(dir_path, pattern = "\\.rds$", full.names = TRUE)
   f = f[basename(f) != "_mediac.rds"]
   parts = lapply(f, readRDS)
